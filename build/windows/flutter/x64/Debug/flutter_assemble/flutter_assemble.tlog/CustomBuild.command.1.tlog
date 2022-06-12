@@ -1,0 +1,28 @@
+^D:\WANFI\REPO\WANFIKRIMY\NEURONEOUS\BUILD\WINDOWS\CMAKEFILES\D68E01D0F8C056FB3659C4243FCFB8C0\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\User\fvm\versions\3.0.0 PROJECT_DIR=D:\wanfi\repo\wanfikriMY\neuroneous FLUTTER_ROOT=C:\Users\User\fvm\versions\3.0.0 FLUTTER_EPHEMERAL_DIR=D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral PROJECT_DIR=D:\wanfi\repo\wanfikriMY\neuroneous FLUTTER_TARGET=D:\wanfi\repo\wanfikriMY\neuroneous\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\wanfi\repo\wanfikriMY\neuroneous\.dart_tool\package_config.json C:/Users/User/fvm/versions/3.0.0/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WANFI\REPO\WANFIKRIMY\NEURONEOUS\BUILD\WINDOWS\CMAKEFILES\86E8A8F3D10FB08DFC19FAAE4396B7E3\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\WANFI\REPO\WANFIKRIMY\NEURONEOUS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/wanfi/repo/wanfikriMY/neuroneous/windows -BD:/wanfi/repo/wanfikriMY/neuroneous/build/windows --check-stamp-file D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

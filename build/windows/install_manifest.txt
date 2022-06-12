@@ -1,0 +1,9 @@
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/data/icudtl.dat
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/flutter_windows.dll
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/data/flutter_assets/NOTICES
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf

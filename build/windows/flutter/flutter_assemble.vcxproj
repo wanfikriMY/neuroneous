@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A2DF978-621E-30D0-B1E8-1A7FFF97A85F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <Platform>x64</Platform>
+    <ProjectName>flutter_assemble</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\CMakeFiles\d68e01d0f8c056fb3659c4243fcfb8c0\flutter_windows.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_windows.dll, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_export.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_windows.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_messenger.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\User\fvm\versions\3.0.0 PROJECT_DIR=D:\wanfi\repo\wanfikriMY\neuroneous FLUTTER_ROOT=C:\Users\User\fvm\versions\3.0.0 FLUTTER_EPHEMERAL_DIR=D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral PROJECT_DIR=D:\wanfi\repo\wanfikriMY\neuroneous FLUTTER_TARGET=D:\wanfi\repo\wanfikriMY\neuroneous\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\wanfi\repo\wanfikriMY\neuroneous\.dart_tool\package_config.json C:/Users/User/fvm/versions/3.0.0/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.dll;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_export.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_messenger.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_windows.dll, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_export.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_windows.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_messenger.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\User\fvm\versions\3.0.0 PROJECT_DIR=D:\wanfi\repo\wanfikriMY\neuroneous FLUTTER_ROOT=C:\Users\User\fvm\versions\3.0.0 FLUTTER_EPHEMERAL_DIR=D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral PROJECT_DIR=D:\wanfi\repo\wanfikriMY\neuroneous FLUTTER_TARGET=D:\wanfi\repo\wanfikriMY\neuroneous\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\wanfi\repo\wanfikriMY\neuroneous\.dart_tool\package_config.json C:/Users/User/fvm/versions/3.0.0/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.dll;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_export.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_messenger.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_windows.dll, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_export.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_windows.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_messenger.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\User\fvm\versions\3.0.0 PROJECT_DIR=D:\wanfi\repo\wanfikriMY\neuroneous FLUTTER_ROOT=C:\Users\User\fvm\versions\3.0.0 FLUTTER_EPHEMERAL_DIR=D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral PROJECT_DIR=D:\wanfi\repo\wanfikriMY\neuroneous FLUTTER_TARGET=D:\wanfi\repo\wanfikriMY\neuroneous\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\wanfi\repo\wanfikriMY\neuroneous\.dart_tool\package_config.json C:/Users/User/fvm/versions/3.0.0/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.dll;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_export.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_messenger.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\CMakeFiles\86e8a8f3d10fb08dfc19faae4396b7e3\flutter_assemble.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.dll;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_export.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_messenger.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.dll;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_export.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_messenger.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.dll;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_export.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_windows.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_messenger.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/wanfi/repo/wanfikriMY/neuroneous/windows -BD:/wanfi/repo/wanfikriMY/neuroneous/build/windows --check-stamp-file D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/wanfi/repo/wanfikriMY/neuroneous/windows -BD:/wanfi/repo/wanfikriMY/neuroneous/build/windows --check-stamp-file D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/wanfi/repo/wanfikriMY/neuroneous/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/wanfi/repo/wanfikriMY/neuroneous/windows -BD:/wanfi/repo/wanfikriMY/neuroneous/build/windows --check-stamp-file D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\flutter\CMakeFiles\flutter_assemble">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\wanfi\repo\wanfikriMY\neuroneous\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{4F1F1336-FE38-3EED-B18C-13CC217E88DA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

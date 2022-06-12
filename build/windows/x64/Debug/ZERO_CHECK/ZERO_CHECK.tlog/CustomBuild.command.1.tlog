@@ -1,0 +1,10 @@
+^D:\WANFI\REPO\WANFIKRIMY\NEURONEOUS\BUILD\WINDOWS\CMAKEFILES\A1F5E451F634E9188427A41509CC4A02\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/wanfi/repo/wanfikriMY/neuroneous/windows -BD:/wanfi/repo/wanfikriMY/neuroneous/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/wanfi/repo/wanfikriMY/neuroneous/build/windows/neuroneous.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
